@@ -102,7 +102,7 @@ text-align: center;
 padding: 20px;
 }
 /* Tablet (768px и больше) */
-@media (min-width: 768px) {
+@media (min-width: 375px) {
 .header {
 flex-direction: row;
 justify-content: space-between;

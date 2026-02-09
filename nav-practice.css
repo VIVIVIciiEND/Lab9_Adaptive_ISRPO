@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(241, 225, 228);
+}
+nav {
+    padding: 16px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+}
+@media ( min-width : 768px){
+    .nav{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+div{
+    background: rgba(226, 182, 226, 0.637);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+.nav div:hover{
+    background: rgba(255, 105, 180, 0.644);
+}
